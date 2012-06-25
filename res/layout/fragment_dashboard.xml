@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+    <br.com.google.android.iosched.widget.DashboardLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+   		<Button 
+	        android:id="@+id/btClassicos"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menu_classicos"
+	        android:drawableTop="@drawable/btn_carro_classico"
+	        android:drawablePadding="10dp"
+	        android:background="@null"
+	        android:textStyle="bold"
+	        android:textColor="@color/preto"
+	        />
+   		<Button 
+	        android:id="@+id/btLuxo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menu_luxo"
+	        android:drawableTop="@drawable/btn_carro_luxo"
+	        android:drawablePadding="10dp"
+	        android:background="@null"
+	        android:textStyle="bold"
+	        android:textColor="@color/preto"
+	        />
+   		<Button 
+	        android:id="@+id/btEsportivos"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menu_esportivos"
+	        android:drawableTop="@drawable/btn_carro_esportivo"
+	        android:drawablePadding="10dp"
+	        android:background="@null"
+	        android:textStyle="bold"
+	        android:textColor="@color/preto"
+	        />
+   		<Button 
+	        android:id="@+id/btSobre"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sobre"
+	        android:drawableTop="@drawable/btn_sobre"
+	        android:drawablePadding="10dp"
+	        android:background="@null"
+	        android:textStyle="bold"
+	        android:textColor="@color/preto"
+	        />
+    </br.com.google.android.iosched.widget.DashboardLayout>
+    
+</FrameLayout>

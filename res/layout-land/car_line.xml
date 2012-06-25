@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left|center_vertical"
+    >
+    
+    <!-- Layout with the image of the car, name and description -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:minHeight="40dp"
+        android:layout_marginRight="12dp"
+        >
+        
+        <FrameLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            
+            <!-- Image of the car -->
+            <ImageView 
+                android:id="@+id/img"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon"
+                android:layout_gravity="center|center_vertical"
+                />
+            
+            <!-- ProgressBar while the image is downloaded -->
+            <ProgressBar 
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginRight="6dp"
+                style="@android:style/Widget.ProgressBar.Small"
+                />
+        </FrameLayout>
+        
+        <!-- Name and description -->
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="6dp"
+            >
+            
+            <TextView 
+                android:id="@+id/txtNome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/preto"
+                style="@style/texto14Bold"
+                />
+            
+            <TextView 
+                android:id="@+id/txtDescricao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/preto"
+                style="@style/texto12"
+                android:maxLength="100"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginRight="16dip"
+                />
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- Right Arrow -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="right|center_vertical"
+        >
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/seta_direita"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+</FrameLayout>

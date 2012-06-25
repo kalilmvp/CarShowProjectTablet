@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@color/fundo"
+    >
+	
+    <include layout="@layout/include_header"/>
+    
+	<fragment 
+	    android:id="@+id/fragmentDashboard"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    class="br.com.google.android.fragments.FragmentDashboard"
+	    />
+    
+    <include layout="@layout/include_footer"/>
+
+</LinearLayout>

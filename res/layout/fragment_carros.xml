@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    android:layout_gravity="center"
+    android:padding="2dp"
+    >
+	    
+	<ListView 
+	    android:id="@+id/listCars"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:cacheColorHint="@color/transparente"
+	    />
+	
+	<ProgressBar 
+	   	android:id="@+id/progressBar"
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_gravity="center"
+	   	android:visibility="invisible"
+	    />
+</FrameLayout>

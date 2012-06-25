@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carros 3.0</string>
+    <string name="aguarde">Por favor aguarde...</string>
+    <string name="copyright">LivroAndroid - Todos os direitos reservados</string>
+    <string name="titulo">Carros Showcase</string>
+    
+    <!-- Mensagens -->
+    <string name="erro_conexao_indisponivel">Conexão indisponível, por favor ative sua rede móvel ou Wi-Fi.</string>
+    <string name="erro_io">Ooops, sistema indisponível no momento.</string>
+    
+    <!-- Labels -->
+    <string name="abrirSite">Abrir o Site</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="busca">Buscar</string>
+    <string name="menu_luxo">Luxo</string>
+    <string name="menu_esportivos">Esportivos</string>
+    <string name="menu_classicos">Clássicos</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição</string>
+    <string name="sobre">Sobre</string>
+</resources>

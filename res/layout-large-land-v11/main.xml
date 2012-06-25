@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:gravity="center"
+    android:background="@color/fundo"
+    android:baselineAligned="false"
+    >
+	
+    <!-- Bloco 01 -->
+	<LinearLayout 
+	    android:id="@+id/layDashboard"
+	    android:orientation="vertical"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:layout_margin="10dp"
+	    android:gravity="center"
+	    android:background="@drawable/box_fundo"
+	    >
+	    <fragment 
+		    android:id="@+id/fragmentDashboard"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    class="br.com.google.android.fragments.FragmentDashboard"
+	    />
+	</LinearLayout>     
+	
+	<!-- Bloco 02 -->
+    <LinearLayout 
+	    android:id="@+id/laySobre"
+	    android:orientation="vertical"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_margin="10dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:background="@drawable/box_fundo"
+	    >
+	    
+	    <fragment 
+		    android:id="@+id/fragmentSobre"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    class="br.com.google.android.fragments.FragmentAbout"
+	    />
+	</LinearLayout>  
+
+</LinearLayout>
