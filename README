@@ -1,8 +1,14 @@
 Projeto desenvolvido com a plataforma Android.
 
-Listagem de Carros via XML com alguns efeitos - versão 3.0 em diante..Usando os mais novos recursoÇ
+Listagem de Carros via XML com alguns efeitos - versão 3.0 em diante..Usando os mais novos recursos:
 
 - ActionBar
 - Fragments
 
 Testes na versão 4.0 que veio com um dos intuitos de homogeneizar Tablet/Smartphone.
+
+Pré-Requisitos:
+
+- Já ter algum conhecimento na plataforma ANDROID e obviamente em JAVA para não ficar tão difícil assim entender.
+- Ter baixado o projeto CarShowUtil (já que esse é biblioteca essencial para o projeto) - 
+LINK: https://github.com/kalilmvp/CarShowUtil
